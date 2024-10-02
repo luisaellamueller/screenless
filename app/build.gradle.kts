@@ -40,4 +40,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // Lombok
+    implementation(libs.lombok)
+    annotationProcessor(libs.lombok)
 }

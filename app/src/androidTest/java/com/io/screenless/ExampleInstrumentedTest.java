@@ -1,4 +1,4 @@
-package com.ScreentimeManagement.myapplication;
+package com.io.screenless;
 
 import android.content.Context;
 

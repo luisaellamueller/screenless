@@ -1,4 +1,4 @@
-package com.ScreentimeManagement.myapplication;
+package com.io.screenless;
 
 import org.junit.Test;
 
