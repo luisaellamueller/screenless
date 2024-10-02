@@ -24,7 +24,7 @@ public class User {
     // Passwort des Benutzers (wird sicher gespeichert)
     private String password;
 
-    // Eine gültige Telefonnummer besteht aus genau 10 Ziffern
+    // Eine gültige Telefonnummer besteht aus 10 Ziffern
     public boolean isValidPhoneNumber() {
         return phoneNumber != null && phoneNumber.matches("\\d{10}");
     }
