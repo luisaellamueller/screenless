@@ -5,8 +5,6 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
-
-import com.io.screenless.R;
 import com.io.screenless.screentimemanagement.adapter.out.persistence.UserEntity;
 
 import java.util.concurrent.CountDownLatch;

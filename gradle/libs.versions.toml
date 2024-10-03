@@ -17,9 +17,13 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-lombok = { module = "org.projectlombok:lombok", version = "1.18.24" }
-room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
+
+# Lombok
+lombok = { group = "org.projectlombok", name = "lombok", version = "1.18.24" }
+
+# Room Database
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomCommon" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCommon" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-lombok = { id = "org.projectlombok", version = "1.18.24" }
