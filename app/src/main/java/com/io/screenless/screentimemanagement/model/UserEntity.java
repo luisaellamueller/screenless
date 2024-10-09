@@ -1,4 +1,4 @@
-package com.io.screenless.screentimemanagement.adapter.out.persistence;
+package com.io.screenless.screentimemanagement.model;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -29,8 +29,7 @@ public class UserEntity {
     @ColumnInfo(name = "profile_picture", typeAffinity = ColumnInfo.BLOB)
     private byte[] profilePicture;
 
-    // Getters and Setters for all fields
-
+    // Getter and Setter for userId
     public Integer getUserId() {
         return userId;
     }
@@ -39,6 +38,7 @@ public class UserEntity {
         this.userId = userId;
     }
 
+    // Getter and Setter for firstName
     public String getFirstName() {
         return firstName;
     }
@@ -47,6 +47,7 @@ public class UserEntity {
         this.firstName = firstName;
     }
 
+    // Getter and Setter for lastName
     public String getLastName() {
         return lastName;
     }
@@ -55,6 +56,7 @@ public class UserEntity {
         this.lastName = lastName;
     }
 
+    // Getter and Setter for email
     public String getEmail() {
         return email;
     }
@@ -63,6 +65,7 @@ public class UserEntity {
         this.email = email;
     }
 
+    // Getter and Setter for phoneNumber
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -71,6 +74,7 @@ public class UserEntity {
         this.phoneNumber = phoneNumber;
     }
 
+    // Getter and Setter for password
     public String getPassword() {
         return password;
     }
@@ -79,6 +83,7 @@ public class UserEntity {
         this.password = password;
     }
 
+    // Getter and Setter for profilePicture
     public byte[] getProfilePicture() {
         return profilePicture;
     }
